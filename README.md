@@ -1,16 +1,85 @@
-# React + Vite
+# 📰 News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern News Application built with React that displays the latest news articles by category. Users can browse news across different topics such as General, Business, Entertainment, Health, Science, Sports, and Technology.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* View latest news articles
+* Category-based news filtering
+* Responsive user interface
+* Dynamic news updates
+* Reusable React components
+* Clean and modern design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Axios
+* React Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### API
+
+* News API
+
+## 📂 Project Structure
+
+```bash
+src/
+├── component/
+│   ├── Navbar.jsx
+│   ├── NewsBoard.jsx
+│   └── NewsItem.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 📖 How It Works
+
+1. User selects a news category from the navigation bar.
+2. The selected category is stored using React State.
+3. NewsBoard fetches articles for the selected category.
+4. NewsItem displays individual news articles.
+5. The UI updates automatically whenever the category changes.
+
+## 🎯 Categories Supported
+
+* General
+* Business
+* Entertainment
+* Health
+* Science
+* Sports
+* Technology
+
+## 💡 Key Learnings
+
+* React Components
+* Props and State Management
+* useState Hook
+* API Integration
+* Conditional Rendering
+* Component Reusability
+* Responsive Design
+
+## 🔮 Future Improvements
+
+* Search News
+* Infinite Scrolling
+* Dark Mode
+* Bookmark Articles
+* User Authentication
+* Country-Based News Filtering
+
+## 👨‍💻 Author
+
+Siva Pandi
+
+⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub!
